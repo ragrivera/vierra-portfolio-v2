@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+:root {
+  --bg: #0a0a0f;
+  --bg-2: #14121f;
+  --ink: #e6e1ff;
+  --ink-dim: #8a82b8;
+  --line: rgba(160, 130, 255, 0.18);
+  --accent: #a855f7;
+  --pink: #ec4899;
+  --cyan: #22d3ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--cyan);
+}
