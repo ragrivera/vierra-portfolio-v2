@@ -1,0 +1,9 @@
+{
+  "extends": "@vierra/tsconfig/library.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "preserve",
+    "lib": ["ES2022", "dom", "dom.iterable"]
+  },
+  "include": ["src/**/*"]
+}
