@@ -1,0 +1,26 @@
+{
+  "name": "@vierra/api-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist .turbo"
+  },
+  "dependencies": {
+    "@vierra/db": "workspace:*",
+    "@vierra/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@vierra/tsconfig": "workspace:*",
+    "typescript": "^5.6.3"
+  }
+}

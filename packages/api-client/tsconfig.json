@@ -1,0 +1,7 @@
+{
+  "extends": "@vierra/tsconfig/library.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["src/**/*"]
+}
